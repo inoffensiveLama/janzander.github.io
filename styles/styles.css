@@ -1,3 +1,8 @@
 body {
-    background-color: white;
+    background-color: #3C3D42;
+    color: #DFF3E3;
+}
+
+#hero {
+    display: grid;
 }
