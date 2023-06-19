@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Oswald:wght@300&display=swap');
+
 body {
     background-color: #3C3D42;
     color: #DFF3E3;
+    font-family: "Cutive Mono", Lato, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
 }
 
 #hero {
@@ -18,4 +24,73 @@ body {
 
 #hero-msg {
     grid-column: 2/3;
+    text-align: justify;
+    margin: 20px;
+}
+
+.home-title {
+    text-align: center;
+    font-family: Oswald, "IM Fell French Canon", Arial, Helvetica, sans-serif;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+nav {
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #DFF3E3;
+    text-decoration: none;
+    padding: 35px;
+}
+
+header {
+    background-color: #11270B ;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a:hover {
+    background-color: #EFAF8E ;
+    color: #11270B;
+}
+
+#active_page {
+    background-color: #EFAF8E ;
+    color: #11270B;
+}
+
+#active_page:hover {
+    background-color: #11270B ;
+    color: #ffffff;
+}
+
+footer {
+    color: #DFF3E3;
+    padding: 25px 50px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #DFF3E3;
+    text-decoration: none;
+}
+
+footer a:hover  {
+    color: #ffffff;
+}
+
+footer .social img {  
+    padding-top: 15px;
+    width: 50px;
 }
