@@ -5,4 +5,17 @@ body {
 
 #hero {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#hero-box {
+    grid-column: 1/2;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg {
+    grid-column: 2/3;
 }
