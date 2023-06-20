@@ -45,6 +45,7 @@ body {
 
 nav {
     justify-content: space-around;
+    align-items: center;
 }
 
 nav a {
@@ -52,6 +53,8 @@ nav a {
     color: #DFF3E3;
     text-decoration: none;
     padding: 35px;
+    transition: all .5s ease;
+    float: right;
 }
 
 header {
@@ -79,6 +82,8 @@ footer {
     color: #DFF3E3;
     padding: 25px 50px;
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 footer a {
@@ -91,6 +96,15 @@ footer a:hover  {
 }
 
 footer .social img {  
-    padding-top: 15px;
+    padding: 15px;
     width: 50px;
+    float: right;
+}
+
+.trademark {
+    grid-column: 1/2;
+}
+
+footer .social {
+    grid-column: 4/5;
 }
